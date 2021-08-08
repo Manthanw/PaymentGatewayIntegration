@@ -41,7 +41,7 @@ button:hover{
 }
 
 .background{
-	background:rgba(0, 0, 0, 0.4) url('images/donate.jpeg');
+	background:rgba(0, 0, 0, 0.4) url('donate.jpeg');
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-blend-mode:darken;
