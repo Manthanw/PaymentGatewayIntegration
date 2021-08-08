@@ -1,0 +1,123 @@
+*{
+	padding: 0;
+	margin: 0;
+	border:0px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    top: 57px;
+    left: 58px;
+    }
+
+.left div{
+    font-size: 25px;
+    color: sandybrown;   
+    width: 100px;
+}
+
+.left img{
+    background:salmon;
+    width:80px;
+}
+
+button:hover{
+	transform: scale(1.1);
+}
+
+
+.btn{
+	border:none;
+	padding: 10px;
+	background:#9dc728; 
+	color:white;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	margin: 8px 0;
+	cursor:pointer;
+	border-radius: 25px;
+}
+
+.background{
+	background:rgba(0, 0, 0, 0.4) url('images/donate.jpeg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-blend-mode:darken;
+}
+
+.content{
+	min-height:93vh;
+}
+
+img{
+	width: 300px;	
+	opacity: 0.8;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	text-align: center;	
+}
+
+.white{
+	color: white;
+	text-align: center;
+}
+
+.navbar{
+    display: flex;
+	padding:30px;
+}
+
+.nav-list{
+	display: flex;
+	align-items: center;
+	justify-content:flex-end;
+}
+
+.nav-list li{
+	list-style: none;
+	padding: 0px 20px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+    color: grey;
+}
+
+.clickme {
+    background-color: #EEEEEE;
+    padding: 8px 20px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.con{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: gold;
+    width: 800px;
+    border: 8px solid gray;
+    padding: 30px;
+    margin: 15px;
+}
+
+
+footer{
+	text-align: center;
+	background-color: rgba(228, 228, 228, 0.8);
+	overflow: hidden;
+	padding-top: 5px;	
+}
